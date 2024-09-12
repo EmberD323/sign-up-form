@@ -10,6 +10,7 @@
     background-position:center;
     background-repeat: no-repeat;
     position: relative;
+    color: white;
 }
 
 .right{
@@ -19,7 +20,6 @@
 .logo{
     background-color: black;
     opacity: .5;
-    color: white;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -31,4 +31,12 @@
 }
 .logo img{
     height: 12.5vh;
+}
+
+.photoCredit{  
+    position: absolute;
+    bottom:0;
+    left:30px;
+    font-size: smaller;
+
 }
