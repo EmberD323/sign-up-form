@@ -1,8 +1,10 @@
-#signUp{
+:root{
+    --right-height:33.33vh;
     box-sizing: border-box;
+}
+#signUp{
     display: flex;
     height:100vh;
-    
 }
 .left{
     width: 33.33vw;
@@ -15,6 +17,8 @@
 
 .right{
     width: 66.66vw;
+
+    
 }
 
 .logo{
@@ -40,3 +44,24 @@
     font-size: smaller;
 
 }
+
+.formContent{
+    display: flex;
+    border:1px solid red;
+}
+fieldset{
+    border: 0;
+    border:1px solid rgb(47, 0, 255);
+}
+
+form{
+    box-shadow: 2px 2px;
+    border:1px solid rgb(0, 255, 0);
+
+}
+
+.words,.createAndLog,form{
+    height: var(--right-height);
+}
+
+
