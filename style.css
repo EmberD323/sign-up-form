@@ -120,8 +120,11 @@ input:focus{
 }
 
 .createAndLog{
-    padding-top: 40px;
+    
     background-color: var(--background-color-one);
+}
+.createButton{
+    padding-top: 40px;
 }
 
 button{
