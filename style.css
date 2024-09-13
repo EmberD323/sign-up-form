@@ -1,3 +1,4 @@
+
 :root{
     --right-height:33.33vh;
     box-sizing: border-box;
@@ -6,6 +7,7 @@
 }
 body{
     margin: 0;
+    font-family:Inter;
 }
 #signUp{
     display: flex;
