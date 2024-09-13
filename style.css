@@ -1,6 +1,7 @@
 :root{
     --right-height:33.33vh;
     box-sizing: border-box;
+    --background-color-one:rgb(235, 231, 231);
 }
 #signUp{
     display: flex;
@@ -17,7 +18,7 @@
 
 .right{
     width: 66.66vw;
-
+    
     
 }
 
@@ -62,6 +63,19 @@ form{
 
 .words,.createAndLog,form{
     height: var(--right-height);
+    padding-left: 40px;
+}
+
+.words{
+    font-size: 25px;
+    padding-right: 50px;
+    background-color: var(--background-color-one);
+}
+.words .one{
+    padding-top: 110px;
+}
+.words .three{
+    padding-top: 15px;
 }
 
 
