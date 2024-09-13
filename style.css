@@ -37,7 +37,7 @@ body{
     align-items: center;
     position:absolute;
     top: 25vh;
-    width: calc(33.33vw - 10.297px);
+    width: calc(33.33vw - 4.953px);
     padding: 15px 0px 15px;
 }
 .logo img{
