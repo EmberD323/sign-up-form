@@ -2,6 +2,7 @@
     --right-height:33.33vh;
     box-sizing: border-box;
     --background-color-one:rgba(243, 237, 237, 0.322);
+    --image-color-match:rgb(235, 118, 118);
 }
 body{
     margin: 0;
@@ -44,7 +45,7 @@ body{
 .photoCredit{  
     position: absolute;
     bottom:0;
-    left:30px;
+    left:154px;
     font-size: smaller;
 
 }
@@ -114,14 +115,23 @@ input:focus{
 }
 
 .createAndLog{
-    padding-top: 20px;
+    padding-top: 40px;
     background-color: var(--background-color-one);
 }
 
 button{
-    background-color:rgb(235, 118, 118);
+    background-color:var(--image-color-match);
     color:white;
     padding: 10px 30px;
     border-radius: 10px;
+    border:0;
+    box-shadow: 0px 1px 2px grey;
+}
+
+.login{
+    padding-top:10px
+}
+.login span{
+    color:var(--image-color-match)
 }
 
