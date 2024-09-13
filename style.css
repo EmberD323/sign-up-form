@@ -81,6 +81,14 @@ input{
 label{
     font-size: 15px;
 }
+
+#password:invalid,#confirmPassword:invalid{
+    border-color: red;
+}
+input:focus{
+    border: blue;
+    box-shadow: 1px 1px 5px blue;
+}
 .doThis{
     font-size: 30px;
     padding-left: 40px;
