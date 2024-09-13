@@ -58,7 +58,7 @@ fieldset{
     border:1px solid rgb(47, 0, 255);
 }
 
-form{
+.form{
     box-shadow: 0px 5px 5px rgb(196, 192, 192);
     border:1px solid rgb(0, 255, 0);
     padding-top: 10px;
@@ -87,7 +87,7 @@ label{
 
 }
 
-.words,.createAndLog,form{
+.words,.createAndLog,.form{
     height: var(--right-height);
     padding-left: 40px;
 }
